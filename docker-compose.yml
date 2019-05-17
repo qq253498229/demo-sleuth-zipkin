@@ -1,0 +1,10 @@
+version: "3"
+services:
+  consul:
+    image: consul:latest
+    ports:
+      - "8500:8500"
+  zipkin:
+    image: openzipkin/zipkin:latest
+    ports:
+      - "9411:9411"

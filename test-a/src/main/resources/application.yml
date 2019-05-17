@@ -1,0 +1,7 @@
+server:
+  port: 8081
+spring:
+  zipkin:
+    base-url: http://192.168.112.57:30141
+  application:
+    name: test-a
